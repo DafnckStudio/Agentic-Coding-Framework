@@ -16,10 +16,10 @@ flowchart TD
     C[Concept Definition] -->|Human finalizes, AI proposes UVP, refines Personas| D
     D[PRD Generation] -->|AI generates and decomposes according to template, Human iteratively validates| E
     E[Task Manager Initialization] -->|AI instructs Roo Orchestrator with PRD features| F
-    F[Task Refinement] -->|Roo Orchestrator (with Roo Code) decomposes complex features into sub-tasks| G
+    F[Task Refinement] -->|Roo Orchestrator with Roo Code decomposes complex features into sub-tasks| G
     G[Builder] -->|AI executes tasks, codes via MCPs, Human reviews/validates code & features| H
-    H[Testing (08_Testing.md)] -->|AI tests features, sets up preview, Human validates| I
-    I[Deployment (09_Deployment.md)] -->|AI executes deployment plan, Human verifies| J
+    H[Testing 08_Testing.md] -->|AI tests features, sets up preview, Human validates| I
+    I[Deployment 09_Deployment.md] -->|AI executes deployment plan, Human verifies| J
     J[Iteration] -->|Collects feedback, Human decides next cycle| A
 ```
 
